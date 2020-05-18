@@ -37,11 +37,15 @@ main {
 }
 
 .logo {
-  flex-basis: 80%;
+  height: 80%;
+  /* flex-basisのほうが望ましい */
+  /*flex-basis: 80%;*/
 }
 
 .paragraph {
-  flex-basis: 20%;
+  height: 20%;
+  /* flex-basisのほうが望ましい */
+  /*flex-basis: 20%;*/
 }
 
 @media (max-width: 768px) {
