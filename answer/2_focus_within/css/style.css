@@ -1,0 +1,4 @@
+/* チェックボックスにフォーカスがあたったとき、label全体にスタイルを付与する  */
+label:focus-within {
+  background-color: rgb(221, 255, 69);
+}

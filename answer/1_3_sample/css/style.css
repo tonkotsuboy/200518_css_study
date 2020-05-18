@@ -1,0 +1,22 @@
+/* 基本スタイル */
+ul {
+  list-style: none;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  grid-template:
+    repeat(2, auto) /
+    repeat(3, 1fr);
+  gap: 10px 20px;
+  grid-auto-flow: column;
+}
+
+li, a {
+  display: contents;
+}

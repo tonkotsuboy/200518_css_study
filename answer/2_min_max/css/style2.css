@@ -1,0 +1,12 @@
+/* 基本スタイル */
+body {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* レイアウト用スタイルはここから */
+h1 {
+  font-size: min(80px, calc(100vw / 10))
+}
